@@ -1,0 +1,136 @@
+/* Container */
+.update-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Title */
+  .update-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Profile Section */
+  .update-profile-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .update-profile-label {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .update-profile-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .update-profile-avatar:hover {
+    transform: scale(1.05);
+  }
+  
+  .update-profile-label input {
+    display: none;
+  }
+  
+  /* Form */
+  .update-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Form Group */
+  .update-form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .update-form-group label {
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .update-form-group input,
+  .update-form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .update-form-group input:focus,
+  .update-form-group textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Button Group */
+  .update-btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Buttons */
+  .update-edit-btn,
+  .update-save-btn,
+  .update-cancel-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .update-edit-btn {
+    background: #007bff;
+    color: #fff;
+  }
+  
+  .update-edit-btn:hover {
+    background: #0056b3;
+  }
+  
+  .update-save-btn {
+    background: #28a745;
+    color: #fff;
+  }
+  
+  .update-save-btn:hover {
+    background: #218838;
+  }
+  
+  .update-cancel-btn {
+    background: #dc3545;
+    color: #fff;
+  }
+  
+  .update-cancel-btn:hover {
+    background: #c82333;
+  }
+  
+  .update-save-btn:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
